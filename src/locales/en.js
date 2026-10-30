@@ -64,7 +64,7 @@ export const en = {
         solution:
           "Engineered with Next.js, MongoDB/Mongoose, Better-Auth, and Tailwind CSS. Features editorial article management, multimedia galleries, secure session handling, and optimized responsive layouts.",
         technologies: ["Next.js", "MongoDB", "Mongoose", "Better-Auth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/bishoftu-news",
+        link: "https://bishoftu-news.vercel.app/",
       },
       {
         id: "hms",
@@ -80,7 +80,7 @@ export const en = {
         solution:
           "Built using Next.js, Prisma ORM, and database-backed booking state machines. Designed intuitive dashboards for staff, room tier configurations, and real-time availability sync.",
         technologies: ["Next.js", "Prisma ORM", "PostgreSQL", "NextAuth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hms",
+        link: "https://yadenhotel-portal-git-main-bedaso-softs-projects.vercel.app/dashboard",
       },
       {
         id: "projecthub",
@@ -96,7 +96,7 @@ export const en = {
         solution:
           "Architected a robust Laravel REST API backend paired with a high-reactivity React frontend. Features workspace hierarchies, task assignments, and relational data integrity.",
         technologies: ["React", "Laravel REST API", "MySQL", "Tailwind CSS", "Vite"],
-        link: "https://github.com/bedaso-soft/projecthub",
+        link: "https://projecthub-frontend-nfnm.vercel.app/",
       },
       {
         id: "yaden-hotel",
@@ -112,7 +112,7 @@ export const en = {
         solution:
           "Developed with Vite/React and modern CSS styling. Implemented responsive photo galleries, amenities showcases, and direct reservation inquiry workflows.",
         technologies: ["React", "Vite", "Node.js", "Express", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hotel-system",
+        link: "https://yaden-hotel.vercel.app/",
       },
     ],
   },

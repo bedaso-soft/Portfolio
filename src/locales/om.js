@@ -64,7 +64,7 @@ export const om = {
         solution:
           "Next.js, MongoDB/Mongoose, Better-Auth fi Tailwind CSS fayyadamuun ijaarame. Gulaallii barruu, galmee suuraa fi fayyadama bilbilaatiif mijataa kan ta'edha.",
         technologies: ["Next.js", "MongoDB", "Mongoose", "Better-Auth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/bishoftu-news",
+        link: "https://bishoftu-news.vercel.app/",
       },
       {
         id: "hms",
@@ -80,7 +80,7 @@ export const om = {
         solution:
           "Next.js, Prisma ORM fi PostgreSQL gargaaramuun kan hojjetame yoo ta'u, hojjettootaaf daashboordii salphaafi ragaa yeroodhaa yerootti haaromsu qaba.",
         technologies: ["Next.js", "Prisma ORM", "PostgreSQL", "NextAuth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hms",
+        link: "https://yadenhotel-portal-git-main-bedaso-softs-projects.vercel.app/dashboard",
       },
       {
         id: "projecthub",
@@ -96,7 +96,7 @@ export const om = {
         solution:
           "Laravel REST API fi React walitti qindeessuun kan ijaarame; kutaalee hojii, ergama hojjettootaa fi gabaasa qabatamaa kenna.",
         technologies: ["React", "Laravel REST API", "MySQL", "Tailwind CSS", "Vite"],
-        link: "https://github.com/bedaso-soft/projecthub",
+        link: "https://projecthub-frontend-nfnm.vercel.app/",
       },
       {
         id: "yaden-hotel",
@@ -112,7 +112,7 @@ export const om = {
         solution:
           "Vite fi React fayyadamuun kan ijaarame; galmee suuraa bal'aa, tarree tajaajilootaa fi qunnamtii kallattiitiif kan qophaa'edha.",
         technologies: ["React", "Vite", "Node.js", "Express", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hotel-system",
+        link: "https://yaden-hotel.vercel.app/",
       },
     ],
   },

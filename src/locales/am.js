@@ -64,7 +64,7 @@ export const am = {
         solution:
           "በNext.js፣ MongoDB/Mongoose፣ Better-Auth እና Tailwind CSS አማካኝነት ተገንብቷል። የአርታዒያን ጽሁፍ ማስተዳደሪያ፣ የሚዲያ ጋለሪ እና ለተንቀሳቃሽ ስልኮች አመቺ የሆነ ገጽታ አለው።",
         technologies: ["Next.js", "MongoDB", "Mongoose", "Better-Auth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/bishoftu-news",
+        link: "https://bishoftu-news.vercel.app/",
       },
       {
         id: "hms",
@@ -80,7 +80,7 @@ export const am = {
         solution:
           "በNext.js፣ Prisma ORM እና PostgreSQL ዳታቤዝ የተገነባ ሲሆን፤ ለሰራተኞች ቀላል ዳሽቦርድ እና ክፍሎችን በቀጥታ የመቆጣጠር አቅም ፈጥሯል።",
         technologies: ["Next.js", "Prisma ORM", "PostgreSQL", "NextAuth", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hms",
+        link: "https://yadenhotel-portal-git-main-bedaso-softs-projects.vercel.app/dashboard",
       },
       {
         id: "projecthub",
@@ -96,7 +96,7 @@ export const am = {
         solution:
           "ጠንካራ የLaravel REST API የጀርባ አሰራር እና ምላሽ ሰጪ የReact ፊት-ገጽን በማጣመር የተሰራ ሲሆን፤ የስራ መደቦችን እና የተግባር ዝርዝርን በብቃት ያስተዳድራል።",
         technologies: ["React", "Laravel REST API", "MySQL", "Tailwind CSS", "Vite"],
-        link: "https://github.com/bedaso-soft/projecthub",
+        link: "https://projecthub-frontend-nfnm.vercel.app/",
       },
       {
         id: "yaden-hotel",
@@ -112,7 +112,7 @@ export const am = {
         solution:
           "በVite እና React የተገነባ ሲሆን፤ የተሟላ የምስል ማሳያ ጋለሪ፣ የአገልግሎቶች ዝርዝር እና ቀጥተኛ የመጠየቂያ ቅጽን ያካትታል።",
         technologies: ["React", "Vite", "Node.js", "Express", "Tailwind CSS"],
-        link: "https://github.com/bedaso-soft/hotel-system",
+        link: "https://yaden-hotel.vercel.app/",
       },
     ],
   },
