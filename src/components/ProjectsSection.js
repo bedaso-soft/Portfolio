@@ -106,7 +106,7 @@ export default function ProjectsSection() {
                   <span className="font-bold text-sm tracking-widest">
                     PROJECT {currentProject.number}
                   </span>
-                  <span>//</span>
+                  <span> / </span>
                   <span className="text-zinc-400 uppercase tracking-wider text-[11px]">
                     {currentProject.category}
                   </span>

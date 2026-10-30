@@ -57,7 +57,7 @@ export default function SkillsSection() {
                   {/* Category Header */}
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-[10px] font-mono tracking-[0.25em] text-blue-400 uppercase font-semibold">
-                      0{idx + 1} // DOMAIN
+                      0{idx + 1} / DOMAIN
                     </span>
                     <div className="p-2 rounded-lg bg-[#141624] text-zinc-400 group-hover:text-blue-400 group-hover:bg-blue-600/10 transition-colors">
                       <Icon className="w-4 h-4" />

@@ -90,7 +90,7 @@ export default function AboutSection() {
                 >
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-[11px] font-mono tracking-widest text-zinc-500">
-                      0{idx + 1} //
+                      0{idx + 1} /
                     </span>
                     <Icon className="w-4 h-4 text-zinc-400 group-hover:text-blue-400 transition-colors" />
                   </div>

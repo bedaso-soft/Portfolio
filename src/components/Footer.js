@@ -5,11 +5,11 @@ import { useLanguage } from "@/context/LanguageContext";
 import { ArrowUp, GitBranch, Mail } from "lucide-react";
 
 export default function Footer() {
-  const { t, isEthiopic } = useLanguage();
-  const [currentYear, setCurrentYear] = useState("2026");
+  const { t } = useLanguage();
+  const [currentYear, setCurrentYear] = useState(null);
 
   useEffect(() => {
-    setCurrentYear(String(new Date().getFullYear()));
+    setCurrentYear(new Date().getFullYear());
   }, []);
 
   const scrollToTop = () => {
@@ -32,7 +32,7 @@ export default function Footer() {
               BEDASO DERSU
             </span>
             <span className="text-[10px] text-zinc-600">
-              © {currentYear} {t.footer.rights}
+              {currentYear ? `© ${currentYear} ${t.footer.rights}` : null}
             </span>
           </div>
         </div>

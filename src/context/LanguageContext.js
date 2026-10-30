@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState } from "react";
 import { en } from "@/locales/en";
 import { am } from "@/locales/am";
 import { om } from "@/locales/om";
@@ -19,20 +19,22 @@ const LanguageContext = createContext({
 });
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguageState] = useState("EN");
-  const [mounted, setMounted] = useState(false);
+  const [language, setLanguageState] = useState(() => {
+    if (typeof window === "undefined") {
+      return "EN";
+    }
 
-  useEffect(() => {
-    setMounted(true);
     try {
-      const saved = localStorage.getItem("bd_portfolio_lang");
+      const saved = window.localStorage.getItem("bd_portfolio_lang");
       if (saved && (saved === "EN" || saved === "AM" || saved === "OM")) {
-        setLanguageState(saved);
+        return saved;
       }
     } catch {
       // Ignore localStorage errors
     }
-  }, []);
+
+    return "EN";
+  });
 
   const setLanguage = (lang) => {
     if (lang === "EN" || lang === "AM" || lang === "OM") {
@@ -49,7 +51,7 @@ export function LanguageProvider({ children }) {
   const isEthiopic = language === "AM";
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t, isEthiopic, mounted }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t, isEthiopic }}>
       {children}
     </LanguageContext.Provider>
   );
