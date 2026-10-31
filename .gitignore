@@ -17,6 +17,13 @@
 /.next/
 /out/
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
 # production
 /build
 
